@@ -55,7 +55,7 @@ def generate_image(text_prompt):
         img = transforms.ToPILImage()(generated_tensor.squeeze(0).cpu())
         return img
 
-st.title("My Cool Picture Maker!")
+st.title("Image generator!")
 st.subheader("Type some words and see what picture I create.")
 
 text_prompt = st.text_input("Enter your words here:", "A colorful flower")
