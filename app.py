@@ -56,7 +56,7 @@ def generate_image(text_prompt):
         return img
 
 st.title("Image generator!")
-st.subheader("Type some words and see what picture I create.")
+st.subheader("Type some words")
 
 text_prompt = st.text_input("Enter your words here:", "A colorful flower")
 
