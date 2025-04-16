@@ -73,4 +73,4 @@ if st.button("Make the Picture!"):
         st.warning("Please type some words before asking me to make a picture!")
 
 st.markdown("---")
-st.markdown("This is a super cool picture-making machine!")
+st.markdown("image generator using gan")
